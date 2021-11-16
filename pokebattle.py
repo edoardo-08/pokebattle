@@ -3,7 +3,7 @@ import sqlite3
 import tkinter as tk
 
 # Connect to database and create a cursor
-db = sqlite3.connect("pokedex.db")
+db = sqlite3.connect(r"Downloads\pokebattle-main\pokebattle-main\pokedex.db")
 my_cursor = db.cursor()
 
 # Make tkinter window better resolution
@@ -14,11 +14,11 @@ root.title('Pokemon battle!')
 root.geometry('800x400')
 
 # Add background images
-bg = tk.PhotoImage(file="pyproj/pokeball.png")
+bg = tk.PhotoImage(file=r"Downloads\pokebattle-main\pokebattle-main\pokeball.png")
 bg_label = tk.Label(root, image=bg)
 bg_label.place(x=1, y=1, relwidth=0.94, relheight=1)
 
-fightbg = tk.PhotoImage(file="pyproj/a4mrs3.png")
+fightbg = tk.PhotoImage(file=r"Downloads\pokebattle-main\pokebattle-main\background.png")
 
 # Create title Label
 title_label = tk.Label(root, text="All generation database",
