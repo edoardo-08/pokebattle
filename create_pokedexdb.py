@@ -1,7 +1,7 @@
 import pandas as pd
 import sqlite3
 
-#pok = pd.read_csv(r'C:\Users\edoar\Downloads\archive\pokedex_(Update_04.21).csv')
+#pok = pd.read_csv(r'pokedex_(Update_04.21).csv')
 
 #pok.drop(pok.columns[24:],axis=1,inplace=True)
 
